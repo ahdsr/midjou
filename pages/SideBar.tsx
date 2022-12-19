@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Fragment, useState } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 
@@ -85,7 +86,7 @@ export default function SideBar() {
                 </Transition.Child>
                 <div className='flex-1 h-0 pt-5 pb-4 overflow-y-auto'>
                   <div className='flex items-center flex-shrink-0 px-4'>
-                    <img
+                    <Image
                       className='w-auto h-8'
                       src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
                       alt='Your Company'
@@ -121,7 +122,7 @@ export default function SideBar() {
                   <a href='#' className='flex-shrink-0 block group'>
                     <div className='flex items-center'>
                       <div>
-                        <img
+                        <Image
                           className='inline-block w-10 h-10 rounded-full'
                           src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
                           alt=''

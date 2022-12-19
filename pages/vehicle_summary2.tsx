@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 import Header from './Header';
@@ -80,7 +81,7 @@ export default function Example() {
                         className='relative flex items-center px-6 py-5 space-x-3 bg-white border border-gray-300 rounded-lg shadow-sm focus-within:ring-1 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400'
                       >
                         <div className='hidden flex-shrink-1 sm:block'>
-                          <img
+                          <Image
                             className='w-10 h-10 rounded-full'
                             src={person.imageUrl}
                             alt=''
@@ -119,7 +120,7 @@ export default function Example() {
                         className='relative flex items-center px-6 py-5 space-x-3 bg-white border border-gray-300 rounded-lg shadow-sm focus-within:ring-1 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400'
                       >
                         <div className='flex-shrink-0'>
-                          <img
+                          <Image
                             className='w-10 h-10 rounded-full'
                             src={car.imageUrl}
                             alt=''
