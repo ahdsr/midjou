@@ -40,10 +40,7 @@ export default function Example() {
                 </h1>
                 <div className='py-12'>
                   <div className='sm:col-span-3'>
-                    <label
-                      htmlFor='country'
-                      className='block text-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-300'
-                    >
+                    <label className='block text-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-300'>
                       Estimated Annual KMs
                     </label>
                     <div className='mt-2'>
