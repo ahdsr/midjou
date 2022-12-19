@@ -79,9 +79,9 @@ export default function Example() {
                     </div>
                   </div>
                   <div className='p-4 mt-4 bg-gray-50'>
-                    If your vehicle doesn't show up in the list above, give us a
-                    call at 1-888-231-2334 or start a chat with our customer
-                    rep.
+                    If your vehicle doesn&apos;t show up in the list above, give
+                    us a call at 1-888-231-2334 or start a chat with our
+                    customer rep.
                   </div>
                 </div>
 

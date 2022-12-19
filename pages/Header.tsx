@@ -28,10 +28,6 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-const myLoader = ({ src, width, quality }) => {
-  return `https://emplois.isarta.com/images-offres/2021/318/71247/71247_detail.gif?16369933040`;
-};
-
 export default function Header() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
@@ -47,7 +43,6 @@ export default function Header() {
           <div className='p-1'>
             {' '}
             <Image
-              loader={myLoader}
               src='https://emplois.isarta.com/images-offres/2021/318/71247/71247_detail.gif?16369933040'
               alt='Picture of the author'
               width={500}
@@ -110,7 +105,7 @@ export default function Header() {
                 </Transition.Child>
                 <div className='flex-1 h-0 pt-5 pb-4 overflow-y-auto'>
                   <div className='flex items-center flex-shrink-0 px-4'>
-                    <img
+                    <Image
                       className='w-auto h-8'
                       src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
                       alt='Your Company'
@@ -146,7 +141,7 @@ export default function Header() {
                   <a href='#' className='flex-shrink-0 block group'>
                     <div className='flex items-center'>
                       <div>
-                        <img
+                        <Image
                           className='inline-block w-10 h-10 rounded-full'
                           src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
                           alt=''

@@ -3,12 +3,11 @@ import Link from 'next/link';
 import Header from './Header';
 import ProgressBar from './ProgressBar';
 import SideBar from './SideBar';
-import Bars from './Bars';
 
 import React, { useState } from 'react';
 
 import '@hassanmojab/react-modern-calendar-datepicker/lib/DatePicker.css';
-import DatePicker from '@hassanmojab/react-modern-calendar-datepicker';
+import DatePicker from 'react-modern-calendar-datepicker-fix';
 
 export default function Example() {
   const [selectedDay, setSelectedDay] = useState(null);
