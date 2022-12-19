@@ -148,7 +148,7 @@ export default function Example() {
               </div> */}
               <div className='px-6 mt-8'>
                 <h1 className='px-2 text-4xl font-Display md:text-4xl md:leading-snug'>
-                  Walter, here's a detailed summary of your quote
+                  Walter, here&apos;s a detailed summary of your quote
                 </h1>
                 <div className='py-12 text-4xl font-semibold font-Display'>
                   $247.58 <div className='text-sm'>per month</div>
@@ -173,7 +173,7 @@ export default function Example() {
                       {({ open }) => (
                         <>
                           <Disclosure.Button className='flex justify-between w-full py-4 text-left border-t text-slate-900 border-t-slate-300 '>
-                            <span>What's Included</span>
+                            <span>What&apos;s Included</span>
                             <ChevronUpIcon
                               className={`${
                                 open ? 'rotate-180 transform' : ''
@@ -297,20 +297,5 @@ export default function Example() {
         </div>
       </div>
     </>
-  );
-}
-
-function CheckIcon(props) {
-  return (
-    <svg viewBox='0 0 24 24' fill='none' {...props}>
-      <circle cx={12} cy={12} r={12} fill='#fff' opacity='0.2' />
-      <path
-        d='M7 13l3 3 7-7'
-        stroke='#fff'
-        strokeWidth={1.5}
-        strokeLinecap='round'
-        strokeLinejoin='round'
-      />
-    </svg>
   );
 }
