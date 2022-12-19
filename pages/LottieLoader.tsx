@@ -19,7 +19,7 @@ export default function LottieAnim() {
         <Lottie
           options={defaultOptions}
           height={400}
-          width={400}
+          width={auto}
           isStopped={state.isStopped}
           isPaused={state.isPaused}
         />
